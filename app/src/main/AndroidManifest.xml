@@ -19,7 +19,7 @@
         <!--<activity android:name=".StudentMarkActivity">-->
 
         <!--</activity>-->
-        <activity android:name=".StudentMarkActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

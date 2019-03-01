@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
         Context mContext;
         Handler handler = new Handler();
         Connection.Response loginForm;
-        public FetchURLAsyncTask(String username, String password, Context context){
+        FetchURLAsyncTask(String username, String password, Context context){
             this.username = username;
             this.password = password;
             mContext = context;
@@ -66,14 +66,6 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-
-                   /* try {
-                        login();
-                    } catch (NoSuchAlgorithmException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }*/
             return null;
         }
 

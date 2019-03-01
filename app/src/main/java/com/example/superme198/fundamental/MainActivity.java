@@ -11,7 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Calendar;
 
 import static java.util.Calendar.DAY_OF_WEEK;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         now.set(Calendar.YEAR, 2019);
         System.out.println(now.get(Calendar.DAY_OF_WEEK) + "now");
         System.out.println(getFirstMonday(now, 2019, 1));
-        System.out.println(dayofweek(21, 1, 2019));
+        System.out.println(dayOfWeek(21, 1, 2019));
     }
 
 
@@ -53,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
     }
 
-    int dayofweek(int d, int m, int y)
+    int dayOfWeek(int d, int m, int y)
     {
         int t[] = { 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 };
         y -= (m < 3) ? 1 : 0;

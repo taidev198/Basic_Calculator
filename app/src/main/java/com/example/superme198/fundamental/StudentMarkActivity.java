@@ -53,7 +53,7 @@ public class StudentMarkActivity extends AppCompatActivity {
             }
         });
 
-        initViews();
+        //initViews();
     }
 
 
